@@ -1,0 +1,26 @@
+body, html {
+  font-family: 'Open Sans';
+  text-align: center;
+  max-width: 720px;
+  margin: auto;
+  height: 100%;
+  background: red;
+}
+
+.result {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+a {
+  text-decoration: none;
+  background-color: #30EF13;
+  transition: all .3s;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #27D236;
+}
